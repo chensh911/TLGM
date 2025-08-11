@@ -11,5 +11,5 @@ The project aims to predict the peak popularity of short-video topics by leverag
 - **`data/`**: Includes code for data handling. This folder provides:
   - Original data in JSON format.
   - Processed data files, ready for use in experiments.
-  - Node features will be available in future versions, as they are being finalized.
+  - Node features extracted from the data, ready for direct use.
 

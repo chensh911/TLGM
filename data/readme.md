@@ -1,6 +1,6 @@
 ## Overview
 
-This folder contains the initial data of short videos from the TopicVid dataset, including the raw content and the detailed data after re-indexing and processing. We also provide features extracted from different data using models, as well as the constructed heterogeneous network graphs, which can be found at [link](https://huggingface.co/datasets/chensh911/TopicVid).
+This folder contains the detailed data after re-indexing and processing. Due to the large size of the initial raw data, extracted features, and heterogeneous graph files, these are not included here. They can be accessed at [link](https://huggingface.co/datasets/chensh911/TopicVid).
 
 
 
@@ -8,7 +8,7 @@ This folder contains the initial data of short videos from the TopicVid dataset,
 
 ### 1. available_dataset_with_subtopic.json
 
-This file contains the raw data of short video content and interaction statistics.
+This file contains the raw data of short video content and interaction statistics. This file is available at [link](https://huggingface.co/datasets/chensh911/TopicVid).
 
 | Field Name | Type | Description |
 |------------|------|-------------|
@@ -99,7 +99,6 @@ This file contains user node information.
 | `id` | `integer` | Unique numerical ID assigned to the user node. |
 | `user_id` | `string` | Platform-specific unique identifier for the user. |
 
----
 
 ### 10.fans.csv
 This file contains fan count feature vectors for fan nodes.
